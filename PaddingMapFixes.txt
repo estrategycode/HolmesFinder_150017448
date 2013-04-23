@@ -1,0 +1,20 @@
+/* Correcting site padding */
+	#container .module.module_templatepage {padding:1em;}
+    #container .module.module_formpage {padding:1em;}
+	#container .PH_NeighborhoodReportPlaceHolder{padding:1em;}
+
+		/* ~~~~~ Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container #body #col-center.col{}
+				body #container #body #col-center.col > .pos{
+					padding:1em;
+				}
+
+
+		/* ~~~~~ Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container #body #col-side-b.col{}
+				body #container #body #col-side-b.col > .pos{
+					padding: 1em;
+				}
+
+/* Fixing Map Height on Contact Form */
+.module.module_offices #map{height:300px;}

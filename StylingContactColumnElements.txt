@@ -1,0 +1,63 @@
+Streamlining Contact Form, Local Property Search, AdditionalListings/Cities/Zip
+
+
+/* ~~~~~ Begin Contact Form Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			#col-side-a > .pos > .module.module_bizcard .agentphoto, #col-side-b > .pos > .module.module_bizcard .agentphoto, #col-side-a > .pos > .module.module_bizcard .agentphoto img, #col-side-b > .pos > .module.module_bizcard .agentphoto img{max-width:77%;}
+			/* Headers in col-side-b */
+			#col-side-b .module.module_bizcard header h3{color:#fff !important;}
+			#col-side-b .module.module_bizcard header{
+			padding:4px;
+			background-color:#8D8C70 !important; 
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;
+			}
+			#col-side-b > .pos > .module > header > *{padding:4px;}
+			#col-side-b .module_propertycontact header h3, #col-side-b .module_scheduleshowing header h3, #col-side-b .module_mortgage header h3{
+			margin:0px;
+			padding:6px;
+			background-color:#8D8C70 !important;
+			color:black;
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;
+			text-transform:capitalize;
+			}
+			#col-side-b .module_localareasearch header h3{
+			padding:6px;
+			background-color:#8D8C70 !important;
+			color:black;
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;			
+			}
+			
+			/* Background of items in col-side-b */
+			#col-side-b .module.module_bizcard {
+			border:1px dotted #000;
+			margin-bottom:25px !important; 
+			} 
+			#col-side-b .module_propertycontact, #col-side-b .module_scheduleshowing, #col-side-b .module_mortgage{
+			border:1px dotted #000;
+			background-color:;
+			margin-bottom:25px !important;
+			position:relative;
+			}		
+			#col-side-b .module_localareasearch{border:1px dotted #000; background-color:;}
+			
+			/* Adjusts padding */
+			#col-side-a > .pos > .module > section, #col-side-b > .pos > .module > section, #col-side-a > .pos > .module > .content, #col-side-b > .pos > .module > .content{padding:.5em;}
+			#col-side-b .module.module_propertycontact section, #col-side-b .module.module_propertycontact div.content{padding:.5em;}
+
+		/* Label Text Color */
+			.module.module_propertycontact #RequestInfoSection fieldset label{color:#000;}
+/* Additional Listing/City/ZipCode styling */
+
+ .module.module_additionallisting, .module.module_nearbyCity, .module.module_nearbyZip{border:1px dotted #000;}
+			 .module.module_additionallisting h3, .module.module_nearbyCity h3, .module.module_nearbyZip h3{padding:5px; text-align:left; font-size:18px; color:#000 !important; background: url(/CustomData/150001578/images/barback.jpg) #E0E0E0;}
+			 .module.module_additionallisting section, .module.module_nearbyCity section, .module.module_nearbyZip section{padding:4px;}
+
+		/* ~~~~~ End Contact Form Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

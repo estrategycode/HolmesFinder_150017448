@@ -1,0 +1,11 @@
+/* Styling Featured Listings and Searches Area */	
+ #bd_home #container #body #col-center .module.module_featuredlisting {border:1px solid #DFDFC0; margin-top:8px;}
+	 #bd_home #container #body #col-center .module.module_featuredlisting section{padding:6px;}
+	 #bd_home #container #body #col-center .module.module_featuredlisting h3{padding:5px; text-align:left; font-size:18px; color:#1229DB; text-shadow: 1px 1px 1px #ccc; background-color:#DFDFC0;}
+	 #bd_home #container #body #col-center .module.module_featuredsearches{border:1px solid #DFDFC0;}
+	 #bd_home #container #body #col-center .module.module_featuredsearches h3{padding:5px; text-align:left; font-size:18px; color:#1229DB; text-shadow: 1px 1px 1px #ccc; background-color:#DFDFC0;}
+
+
+/*To spread out six featured searches within a boxed area*/
+
+#bd_home #container #body #col-center .module.module_featuredsearches article {margin-bottom:10px; margin-left:20px;}
